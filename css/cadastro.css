@@ -1,0 +1,131 @@
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.logo-container {
+    border-bottom: 2px solid #000b81; /* Adiciona uma borda na parte inferior */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding-bottom: 10px; /* Espaçamento inferior para o texto do logo */
+}
+
+.logo {
+    font-size: 18px; /* Tamanho do texto do logo */
+    color: #000b81; /* Cor do texto do logo */
+    text-decoration: none; /* Remove sublinhado do link */
+}
+
+.logo i {
+    margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 2px solid #000b81; /* Adiciona uma borda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 700px; /* aumentei a largura máxima */
+}
+
+.card-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-header h3 {
+    margin: 0;
+    color: #000000;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.form-control {
+    width: 100%; /* ajustei a largura dos campos */
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #000b81;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%; /* ajustei para ocupar toda a largura */
+    padding: 1px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: #0007c7;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #5b58ff;
+}
+
+.btn-secondary {
+    background-color: #ccc;
+    color: #000;
+}
+
+.btn-secondary:hover {
+    background-color: #aaa;
+}
+
+@media (max-width: 768px) {
+    .card {
+        padding: 15px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 10px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .form-control {
+        padding: 8px;
+    }
+
+    .btn {
+        padding: 8px;
+    }
+}
